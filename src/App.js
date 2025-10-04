@@ -1,15 +1,11 @@
-const Coffee = () => {
-  return React.createElement('div', {}, []);
-};
-
 const App = () => {
   return React.createElement(
-    'div',
+    "div",
     {},
-    React.createElement('h1', {}, 'Metal & Lattes')
+    React.createElement("h1", {}, "Metal & Lattes")
   );
 };
 
-const container = document.getElementById('root');
+const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
 root.render(React.createElement(App));
